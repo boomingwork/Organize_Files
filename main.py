@@ -4,14 +4,15 @@ import glob
 
 # creating a dictionary mapping a list of folder with the file types their can contain.
 folder_extensions = {
-    "Documents": [".docx", ".pdf", ".txt"],
-    "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp"],
+    "Documents": [".docx", ".pdf", ".txt", ".pptx"],
+    "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp"],
     "Videos": [".mp4", ".avi", ".mkv", ".mov", ".wmv"],
     "Code": [".py", ".js", ".html", ".css", ".java"],
     "Archives": [".zip", ".rar", ".tar.gz", ".7z"],
     "Spreadsheets": [".xls", ".xlsx", ".csv"],
     "Scripts": [".sh", ".bat", ".ps1"],
-    "Web": [".html", ".css", ".js", ".php"]
+    "Web": [".html", ".css", ".js", ".php"],
+    "Software": ".pkg"
 }
 
 # initialize the download path where we want to rearrange the files.
